@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>GitHub访问下载加速</title>
+    <url>/2019/11/09/GitHub%E8%AE%BF%E9%97%AE%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F/</url>
+    <content><![CDATA[<h1 id="GitHub访问下载加速"><a href="#GitHub访问下载加速" class="headerlink" title="GitHub访问下载加速"></a>GitHub访问下载加速</h1><p>2019/11/8 23:22:30 </p>
+<hr>
+<p>有时使用github下载release文件的时候，</p>
+<p>速度比较慢，那么如何做呢？</p>
+<p>下面就告诉大家如何修改host文件，</p>
+<p>从而加快github访问及下载速度<br><a id="more"></a></p>
+<h2 id="首先获取IP地址"><a href="#首先获取IP地址" class="headerlink" title="首先获取IP地址"></a>首先获取IP地址</h2><h3 id="获取下列域名IP"><a href="#获取下列域名IP" class="headerlink" title="获取下列域名IP"></a>获取下列域名IP</h3><ul>
+<li>github.global.ssl.fastly.net</li>
+<li>github.com (github访问）</li>
+<li>raw.githubusercontent.com (文件下载地址)</li>
+<li>assets-cdn.github.com (github cdn)</li>
+<li>codeload.github.com (旧github 地址)<h3 id="通过以下两个方式获取"><a href="#通过以下两个方式获取" class="headerlink" title="通过以下两个方式获取"></a>通过以下两个方式获取</h3></li>
+<li><a href="https://www.ipaddress.com/" target="_blank" rel="noopener">https://www.ipaddress.com/</a>  </li>
+</ul>
+<p>&emsp;&emsp; 域名后面加 .ipaddress.com 会自动解析<br>&emsp;&emsp;                  <code>github.global.ssl.fastly.net .ipaddress.com</code>  </p>
+<ul>
+<li><a href="http://tool.chinaz.com/dns" target="_blank" rel="noopener">http://tool.chinaz.com/dns</a><br>我们选用TTL最小的IP  <h3 id="我获取到以下IP"><a href="#我获取到以下IP" class="headerlink" title="我获取到以下IP"></a>我获取到以下IP</h3></li>
+</ul>
+<pre><code> 1. 69.171.237.16 github.global.ssl.fastly.net
+ 2. 13.250.177.223 github.com
+ 3. 185.199.110.153 assets-cdn.github.com
+ 4. 192.30.253.120 codeload.github.com
+ 5. 151.101.76.133 raw.githubusercontent.com
+</code></pre><h2 id="修改host文件"><a href="#修改host文件" class="headerlink" title="修改host文件"></a>修改host文件</h2><p>将上述获取的IP地址添加到host文件中  </p>
+<ul>
+<li><p>//windows下路径<br>C:\Windows\System32\drivers\etc  </p>
+</li>
+<li><p>//linux下<br><code>vi /etc/hosts</code>  </p>
+<h2 id="刷新DNS使其生效"><a href="#刷新DNS使其生效" class="headerlink" title="刷新DNS使其生效"></a>刷新DNS使其生效</h2><p>windows下进入cmd 输入以下内容<br><code>ipconfig /flushdns</code>  </p>
+</li>
+</ul>
+<p>linux 直接输入<br><code>sudo /etc/init.d/networking restart</code>  </p>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><blockquote>
+<p>参考  <a href="https://blog.csdn.net/weixin_38737912/article/details/102814628" target="_blank" rel="noopener" title="Github访问下载加速">https://blog.csdn.net/weixin_38737912/article/details/102814628</a></p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一次尝试</title>
+    <url>/2019/11/07/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%9D%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="纪念博客搭建成功"><a href="#纪念博客搭建成功" class="headerlink" title="纪念博客搭建成功"></a><strong>纪念博客搭建成功</strong></h1><p>2019/11/7 9:55:37</p>
+<hr>
+<p>我搭建博客纯属是一个偶然，屡次碰壁后终于小成了。<br>时间有限，以下内容用来测试，用什么呢？<br>不如用它吧！<br><a id="more"></a><br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;《出师表》  </p>
+<p>&emsp; &ensp; 先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br> &emsp; &ensp; 宫中府中，俱为一体，陟罚臧否，不宜异同。若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理，不宜偏私，使内外异法也。<br>&emsp; &ensp; 侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下。愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。<br>&emsp; &ensp; 将军向宠，性行淑均，晓畅军事，试用于昔日，先帝称之曰能，是以众议举宠为督。愚以为营中之事，悉以咨之，必能使行阵和睦，优劣得所。<br>&emsp; &ensp; 亲贤臣，远小人，此先汉所以兴隆也；亲小人，远贤臣，此后汉所以倾颓也。先帝在时，每与臣论此事，未尝不叹息痛恨于桓、灵也。侍中、尚书、长史、参军，此悉贞良死节之臣，愿陛下亲之信之，则汉室之隆，可计日而待也。<br>&emsp; &ensp; 臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中，咨臣以当世之事，由是感激，遂许先帝以驱驰。后值倾覆，受任于败军之际，奉命于危难之间，尔来二十有一年矣。<br>&emsp; &ensp; 先帝知臣谨慎，故临崩寄臣以大事也。受命以来，夙夜忧叹，恐托付不效，以伤先帝之明，故五月渡泸，深入不毛。今南方已定，兵甲已足，当奖率三军，北定中原，庶竭驽钝，攘除奸凶，兴复汉室，还于旧都。此臣所以报先帝而忠陛下之职分也。至于斟酌损益，进尽忠言，则攸之、祎、允之任也。<br>&emsp; &ensp; 愿陛下托臣以讨贼兴复之效，不效，则治臣之罪，以告先帝之灵。若无兴德之言，则责攸之、祎、允等之慢，以彰其咎；陛下亦宜自谋，以咨诹善道，察纳雅言。深追先帝遗诏，臣不胜受恩感激。<br>&emsp; &ensp; 今当远离，临表涕零，不知所言。</p>
+<p><img src="http://ww1.sinaimg.cn/large/005ZwtYoly1g8pb2uenbcj30dw09i0tz.jpg" alt=""></p>
+]]></content>
+  </entry>
+</search>
