@@ -56,6 +56,7 @@
 
 
 
+
   <meta name="description" content="我是一只小辣鸡，小啊小辣鸡">
 <meta property="og:type" content="website">
 <meta property="og:title" content="小萌新">
@@ -237,8 +238,8 @@
       </div>
 
       <h3 class="post-title">
-          <a class="post-title-link" href="/article/a784e92a.html" itemprop="url">
-            <span itemprop="name">纪念博客搭建成功</span>
+          <a class="post-title-link" href="/article/b132932.html" itemprop="url">
+            <span itemprop="name">GitHub访问下载加速</span>
           </a>
       </h3>
 
@@ -257,8 +258,8 @@
       </div>
 
       <h3 class="post-title">
-          <a class="post-title-link" href="/article/b132932.html" itemprop="url">
-            <span itemprop="name">GitHub访问下载加速</span>
+          <a class="post-title-link" href="/article/a784e92a.html" itemprop="url">
+            <span itemprop="name">纪念博客搭建成功</span>
           </a>
       </h3>
 
@@ -420,6 +421,8 @@
   </div>
 
   
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@latest/canvas-nest.min.js"></script>
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
@@ -475,6 +478,34 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
+
+
+<script>
+NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'scg4K8rOzU5dN1VeKgbWOG1y-gzGzoHsz',
+    appKey: 'TUr8uupYa07ho7P0GIBudtTB',
+    placeholder: "Just go go",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
+
 
 
 </body>
