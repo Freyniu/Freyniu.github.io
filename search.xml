@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>常用命令</title>
+    <url>/article/6fc55794.html</url>
+    <content><![CDATA[<hr>
+<p>记在小本本上。<br>hexo和Markdown常用命令。<br><a id="more"></a>   </p>
+<h3 id="1-hexo常用命令"><a href="#1-hexo常用命令" class="headerlink" title="1.hexo常用命令"></a>1.hexo常用命令</h3><h4 id="1-1常见命令"><a href="#1-1常见命令" class="headerlink" title="1.1常见命令"></a>1.1常见命令</h4><pre><code>hexo new &quot;postName&quot; #新建文章
+hexo new page &quot;pageName&quot; #新建页面   
+hexo generate #生成静态页面至public目录  
+hexo server #开启预览访问端口（默认端口4000，&#39;ctrl + c&#39;关闭server）  
+hexo deploy #部署到GitHub  
+hexo help  # 查看帮助  
+hexo version  #查看Hexo的版本
+hexo --debug 
+</code></pre><h4 id="1-2缩写"><a href="#1-2缩写" class="headerlink" title="1.2缩写"></a>1.2缩写</h4><pre><code>hexo n == hexo new
+hexo g == hexo generate
+hexo s == hexo server
+hexo d == hexo deploy 
+</code></pre><h4 id="1-3组合命令"><a href="#1-3组合命令" class="headerlink" title="1.3组合命令"></a>1.3组合命令</h4><pre><code>hexo s -g #生成并本地预览
+hexo d -g #生成并上传
+hexo s -debug预览调试
+</code></pre><h3 id="2-Markdown使用说明"><a href="#2-Markdown使用说明" class="headerlink" title="2.Markdown使用说明"></a>2.Markdown使用说明</h3><p>注：过于基础内容不涉及  </p>
+<h4 id="2-1粗体斜体"><a href="#2-1粗体斜体" class="headerlink" title="2.1粗体斜体"></a>2.1粗体斜体</h4><p>Markdown 的粗体和斜体非常简单，用两个 <em> 包含一段文本就是粗体的语法，用一个 </em> 包含一段文本就是斜体的语法。<br>示例：   </p>
+<pre><code>*小萌新*   
+**始于颜值、陷于才华、忠于人品**   
+</code></pre><h4 id="2-2代码引用"><a href="#2-2代码引用" class="headerlink" title="2.2代码引用"></a>2.2代码引用</h4><p>需要引用代码时，如果引用的语句只有一段，不分行，可以将语句包起来。如果引用的语句为多行，可以将```置于这段代码的首行和末行。</p>
+]]></content>
+      <categories>
+        <category>博客维护</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GitHub访问下载加速</title>
     <url>/article/b132932.html</url>
     <content><![CDATA[<h1 id="GitHub访问下载加速"><a href="#GitHub访问下载加速" class="headerlink" title="GitHub访问下载加速"></a>GitHub访问下载加速</h1><p>2019/11/8 23:22:30 </p>
